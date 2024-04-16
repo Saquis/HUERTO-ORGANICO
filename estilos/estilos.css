@@ -1,11 +1,11 @@
 body {
-    background-image: url(img2.jpg);
+    background-image: url(file://C:/xampp/htdocs/HUERTO%20ORGANICO/estilos/img.jpg);
     background-position: center center;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
 }
+
 
 .container {
     max-width: 1200px;
