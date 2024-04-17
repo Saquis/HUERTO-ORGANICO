@@ -4,54 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="file://C:/xampp/htdocs/HUERTO%20ORGANICO/estilos/estilos.css">
-    <title> Huerto Orgánico</title>
+    <title>Huerto Orgánico</title>
+    
+    <style>
+        .navbar-nav {
+            margin-left: auto; /* Alinear el menú a la derecha */
+        }
+        .navbar-toggler {
+            margin-right: 0.5rem; /* Espacio entre el botón del menú y el botón de búsqueda */
+        }
+        .form-inline {
+            margin-left: auto; /* Alinear el formulario de búsqueda a la derecha */
+        }
+        .nav-link {
+            display: flex;
+            align-items: center;
+        }
+        .nav-link i {
+            margin-right: 0.5rem; /* Espacio entre el icono y el texto */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <div class="menu">
-            <ul>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#menu">Menú</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#formulario">Formulario</a></li>
-            </ul>
+        <div class="logo">
+            <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\log1.png" alt="Logo del huerto orgánico" class="img-fluid">
         </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#nosotros"><i class="bi bi-person-fill"></i> Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#inicio"><i class="bi bi-house-fill"></i> Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios"><i class="bi bi-tools"></i> Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu"><i class="bi bi-card-list"></i> Menú</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto"><i class="bi bi-telephone-fill"></i> Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formulario"><i class="bi bi-chat-square-text-fill"></i> Formulario</a></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="bi bi-arrow-right-circle-fill"></i></button>
+                </form>
+            </div>
+        </nav>
         <div class="content">
             <h1>Sobre Huerto Orgánico</h1>
-            <div class="section" id="nosotros">
-                <h2>Nosotros</h2>
-                <i class="bi bi-person-fill"></i>
-                <p>Acerca de nuestro equipo y nuestra misión.</p>
-            </div>
-            <div class="section" id="inicio">
-                <h2>Inicio</h2>
-                <i class="bi bi-house-fill"></i>
-                <p>Descubre nuestro huerto orgánico desde el principio.</p>
-            </div>
-            <div class="section" id="servicios">
-                <h2>Servicios</h2>
-                <i class="bi bi-tools"></i>
-                <p>Explora los servicios que ofrecemos.</p>
-            </div>
-            <div class="section" id="menu">
-                <h2>Menú</h2>
-                <i class="bi bi-card-list"></i>
-                <p>Consulta nuestro menú de productos orgánicos.</p>
-            </div>
-            <div class="section" id="contacto">
-                <h2>Contacto</h2>
-                <i class="bi bi-telephone-fill"></i>
-                <p>Encuéntranos y contáctanos.</p>
-            </div>
-            <div class="section" id="formulario">
-                <h2>Formulario</h2>
-                <i class="bi bi-chat-square-text-fill"></i>
-                <p>Completa nuestro formulario para más información.</p>
+            <div class="logo-container">
+                <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\img5.jpg" alt="Un huerto orgánico es un espacio diseñado y cultivado " class="logo-img">
+                <div class="image-caption"></div>
+        </div>
+        <h2 class="contenido-title">CONTENIDO SOBRE EL HUERTO</h2>
+        </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Exquisitas</h3>
+                    <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img1.jpeg" alt="Exquisitas" class="contenido-img">
+                    <div class="contenido-img-caption">
+                        <p>--Fuertes en distribuicion--</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3>Fuertes</h3>
+                    <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img2.jpeg" alt="Título de la imagen 2" class="contenido-img">
+                    <div class="contenido-img-caption">
+                        <p>--Altas en calidad--.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3>Extensas</h3>
+                    <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img4.jpeg" alt="Título de la imagen 2" class="contenido-img">
+                    <div class="contenido-img-caption">
+                        <p>--Nutricion--.</p>
             </div>
         </div>
+        <div class="col-md-3">
+            <h3>Saludables</h3>
+            <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img5.jpeg" alt="Título de la imagen 2" class="contenido-img">
+            <div class="contenido-img-caption">
+                <p>--Conservadas--.</p>
     </div>
+    </div>
+    <div class="col-md-3">
+        <h3>ECOHUERTO VERDE</h3>
+        <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img6.jpeg" alt="Título de la imagen 2" class="contenido-img">
+        <div class="contenido-img-caption">
+            <p>--Cultivando Conciencia--.</p>
+
+        </div>
+    </div>
+    <div class="col-md-3">
+        <h3>TIERRA VIVA</h3>
+        <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img7.jpeg" alt="Título de la imagen 2" class="contenido-img">
+        <div class="contenido-img-caption">
+            <p>--Organico sostenible--.</p>
+
+        </div>
+    </div>
+    <div class="col-md-3">
+        <h3>NATURALEZA NUTRITIVA</h3>
+        <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img8.jpeg" alt="Título de la imagen 2" class="contenido-img">
+        <div class="contenido-img-caption">
+            <p>--Huerto Bio--.</p>
+
+        </div>
+        </div>
+        <div class="col-md-3">
+            <h3>VERDE Y FRESCO</h3>
+            <img src="C:\xampp\htdocs\HUERTO ORGANICO\estilos\fram-img9.jpeg" alt="Título de la imagen 2" class="contenido-img">
+            <div class="contenido-img-caption">
+                <p>--Cultiva connsciente--.</p>
+            </div>
+        </div>
+        <div class="footer-container">
+            <h2>¡Bienvenido al Huerto Orgánico!</h2>
+            <p>Somos una comunidad dedicada al cultivo de alimentos frescos, saludables y respetuosos con el medio ambiente. En nuestro huerto, promovemos prácticas sostenibles y orgánicas para ofrecerte productos de la más alta calidad. ¡Ven y únete a nosotros para disfrutar de la naturaleza y el sabor auténtico de los alimentos cultivados con amor!</p>
 </body>
 </html>
