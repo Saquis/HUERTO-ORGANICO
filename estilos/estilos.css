@@ -46,25 +46,24 @@ body {
     margin-right: 10px;
 }
 .logo img {
-    max-width: 180px; /* ajusta el tamaño máximo del logo */
-    height: auto; /* asegura que la altura se ajuste automáticamente */
+    max-width: 180px; 
+    height: auto; 
 }
 .logo-container {
-    margin-top: 20px; /* Espacio entre el título y la imagen */
-    text-align: center; /* Centrar el texto y la imagen horizontalmente */
+    margin-top: 20px; 
+    text-align: center; 
 }
 .logo-img {
-    width: 100%; /* Ajustar el tamaño máximo de la imagen al contenedor */
-    height: auto; /* Mantener la proporción de aspecto */
+    width: 100%; 
+    height: auto; 
 }
 .image-caption {
-    margin-top: 5px; /* Espacio entre la imagen y la descripción */
-    font-size: 20px; /* Tamaño de fuente de la descripción */
-    color: #555; /* Color de la descripción */
+    margin-top: 5px; 
+    font-size: 20px; 
 }
 .logo-container {
-    margin-top: 20px; /* Espacio entre el título y la imagen */
-    text-align: center; /* Centrar el texto y la imagen horizontalmente */
+    margin-top: 20px; 
+    text-align: center; 
 }
 .logo-img {
     width: 100%; /* La imagen ocupará todo el ancho del contenedor */
